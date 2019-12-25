@@ -1,6 +1,6 @@
-language: php # テスト言語
+language: php
 php:
-- 5.5 # 環境その1
-- 5.4 # 環境その2
-- hhvm # 環境その3
-script: phpunit Test.php # この処理がCIとして走る
+  - 5.5
+  - 5.4
+  - hhvm
+script: phpunit Test.php
